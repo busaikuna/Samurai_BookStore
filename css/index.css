@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Oxanium:wght@200..800&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 5vh;
+}
+.logo{
+    z-index: 9999;
+    width: 130px;
+    margin: 5px 10px;
+}
+main{
+    padding: 0 !important;
+    height: 100vh;
+    display: flex;
+}
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 10px 20px;
+}
+.info-section{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210115/pngtree-hand-drawn-vintage-book-sketch-background-image_528799.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 65vw;
+    font-size: 4rem;
+    font-family: "Oxanium", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.form-section{
+    padding: 10px;
+    width: 45vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 35vw;
+}
+#button{
+    margin-top: 3vh !important;
+}
